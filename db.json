@@ -28,8 +28,12 @@
       "email": "test@test.com",
       "password": "$2b$10$ga.Opke.JVFs2FUobvlMMebFycSrSGqyC2XpmKJID.JnpsXUDE8Ke",
       "name": "test"
+    },
+    {
+      "id": "f3085523-6480-4e8b-8563-ce82bc88170a",
+      "email": "test@test.com",
+      "password": "$2b$10$de3KxrK3m.2SVw7njNjvjuiQK1V1jITUGl8Xf59nK.3owEMEfIG16"
     }
-  
   ],
   "pizzas": [
     {

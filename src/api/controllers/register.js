@@ -14,8 +14,8 @@ module.exports = (api) => {
             ...req.body,
             password: encryptedPassword
         }
-        dbManager.create('users', user);
-        res.status(201).json(user);
+        const userCreated = await dbManager.create('users', user);
+        res.status(201).json(userCreated);
     });
 }
     
