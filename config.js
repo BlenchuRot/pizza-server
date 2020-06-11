@@ -17,5 +17,7 @@ module.exports = {
         refreshSecret: process.env.REFRESH_SECRET || 'refresh_secret',
         authTTL: FIVE_MINUTES,
         refreshTTL: THIRTY_DAYS,
+        refreshCookie: 'refresh',
     },
+   
 }

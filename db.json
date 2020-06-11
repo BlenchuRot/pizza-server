@@ -33,6 +33,31 @@
       "id": "f3085523-6480-4e8b-8563-ce82bc88170a",
       "email": "test@test.com",
       "password": "$2b$10$de3KxrK3m.2SVw7njNjvjuiQK1V1jITUGl8Xf59nK.3owEMEfIG16"
+    },
+    {
+      "id": "7f6ec0ba-f5bc-4625-9c4e-14daf29419d0",
+      "email": "test@test.com",
+      "password": "$2b$10$kl1qBhBcXK/BIdxAu0lZd..bLz8yzYlVkm/H41ke2eioJ7QYEtzw6"
+    },
+    {
+      "id": "1788c48d-e368-4cb6-9849-b7b1121f7726",
+      "email": "belen@test.com",
+      "password": "$2b$10$R8V3dkLKsamgbvD34Tn2Fubz5LKfCrdhQelnQ151xHD/krD4zCFqO"
+    },
+    {
+      "id": "aaa552f2-b34b-415d-bc97-13836efab4ab",
+      "email": "belen@test.com",
+      "password": "$2b$10$Ixph68x5uUvw9hkm8Hs7qOW6uxwICWvHtIblA1KOC4.JIJfn/B..u"
+    },
+    {
+      "id": "6f67bc33-43c8-49a3-b6af-176de556436a",
+      "email": "belen@test.com",
+      "password": "$2b$10$KruseBmbByy4uEWuvrDCk.WOLtC7Pypb8oAlKYm4G2QyRTzin5Gze"
+    },
+    {
+      "id": "208f8b2d-76e8-48f8-a395-91fbee4aa202",
+      "email": "antonio@test.com",
+      "password": "$2b$10$kc8qdUOMxij5Q/mTuwg/fuTfsqJc25OyTWvL5kSFC.ggC3Xw67KKm"
     }
   ],
   "pizzas": [
