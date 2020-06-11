@@ -29,7 +29,6 @@
       "password": "$2b$10$ga.Opke.JVFs2FUobvlMMebFycSrSGqyC2XpmKJID.JnpsXUDE8Ke",
       "name": "test"
     },
-    
     {
       "id": "1788c48d-e368-4cb6-9849-b7b1121f7726",
       "email": "belen@test.com",
@@ -38,10 +37,22 @@
     },
    
     {
-      "id": "208f8b2d-76e8-48f8-a395-91fbee4aa202",
+      "id": "6e07466b-49f0-45c6-8b92-fdc7b4b91318",
       "email": "antonio@test.com",
-      "password": "$2b$10$kc8qdUOMxij5Q/mTuwg/fuTfsqJc25OyTWvL5kSFC.ggC3Xw67KKm",
+      "password": "$2b$10$YENTp88KyOCucjIQ764DS.Bn9HOclntXLd8HrrRFLwNhdXrwR0Ik2",
       "name": "Antonio"
+    },
+    {
+      "id": "b11487c1-d6f9-4f33-ba19-8587dffb75e0",
+      "email": "test@test.com",
+      "password": "$2b$10$dSe9ajL8GnXxfR2G1sV0kOK/vlD.fTcSoevsRkPa8.dMu5sAN8SHu",
+      "name": "test"
+    },
+    {
+      "id": "671b860b-80ed-4342-9f6a-2845f77e4561",
+      "email": "lucia@test.com",
+      "password": "$2b$10$tRt9KWNwX8k1GQJlSOQD3ezZ7HSn.4tLxsLyuOpEd3b.xv6yjlmBS",
+      "name": "Lucia"
     }
   ],
   "pizzas": [
