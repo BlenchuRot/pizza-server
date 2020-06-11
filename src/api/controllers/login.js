@@ -20,12 +20,19 @@ module.exports = (api) => {
         const userModel = {
             ...user,
             password: undefined
-        };
-        const authToken = await jwt.sign({user:userModel},config.authentication.authSecret,{algorithm:'HS512',expiresIn: config.authentication.authTTL})
+        }
+        const {
+            authSecret,
+            refreshSecret,
+            authTTL,
+            refreshTTL
+        } = config.authentication;
+
+        const authToken = await jwt.sign({user:userModel},authSecret,{algorithm:'HS512',expiresIn: authTTL})
         
-        const refreshToken = await jwt.sign({user:userModel},config.authentication.refreshSecret,{algorithm:'HS512',expiresIn: config.authentication.refreshTTL})
+        const refreshToken = await jwt.sign({user:userModel},refreshSecret,{algorithm:'HS512',expiresIn: refreshTTL})
             res.cookie('refresh', refreshToken, {
-                    maxAge: config.authentication.refreshTTL * 1000,
+                    maxAge: refreshTTL * 1000,
                     httpOnly: true,
                     sameSite: 'none'
             })
