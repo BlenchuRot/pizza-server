@@ -42,12 +42,6 @@
       "name": "Antonio"
     },
     {
-      "id": "b11487c1-d6f9-4f33-ba19-8587dffb75e0",
-      "email": "test@test.com",
-      "password": "$2b$10$dSe9ajL8GnXxfR2G1sV0kOK/vlD.fTcSoevsRkPa8.dMu5sAN8SHu",
-      "name": "test"
-    },
-    {
       "id": "671b860b-80ed-4342-9f6a-2845f77e4561",
       "email": "lucia@test.com",
       "password": "$2b$10$tRt9KWNwX8k1GQJlSOQD3ezZ7HSn.4tLxsLyuOpEd3b.xv6yjlmBS",
