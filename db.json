@@ -35,7 +35,6 @@
       "password": "$2b$10$R8V3dkLKsamgbvD34Tn2Fubz5LKfCrdhQelnQ151xHD/krD4zCFqO",
       "name": "Belén"
     },
-   
     {
       "id": "6e07466b-49f0-45c6-8b92-fdc7b4b91318",
       "email": "antonio@test.com",
@@ -53,6 +52,12 @@
       "email": "lucia@test.com",
       "password": "$2b$10$tRt9KWNwX8k1GQJlSOQD3ezZ7HSn.4tLxsLyuOpEd3b.xv6yjlmBS",
       "name": "Lucia"
+    },
+    {
+      "id": "6c37d026-8715-4553-b66c-f2e623ca0f90",
+      "name": "Isidro",
+      "email": "mi@email.com",
+      "password": "$2b$10$eeEaV7tH4jLIa6gGNYNgKeuvhHWjt6LktxZF4RMGFujutA/ANqX7q"
     }
   ],
   "pizzas": [

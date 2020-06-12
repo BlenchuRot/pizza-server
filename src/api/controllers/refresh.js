@@ -8,7 +8,6 @@ module.exports = (api) => {
             authTTL,
             refreshCookie
         } = config.authentication;
-        
             // comprobar que el token de refresco existe
         const token = req.cookies[refreshCookie];
         if (!token) {
@@ -19,13 +18,14 @@ module.exports = (api) => {
         
         let decoded;
         try {
-            decoded = await jwt.verify(token, refreshSecret);
+          decoded = await jwt.verify(token, refreshSecret);
         } catch (err) {
             res.status(401).end();
             console.error(err)
+            return;
         }
         // creamos un nuevo token de autenticación
         const authToken = await jwt.sign({ user: decoded.user }, authSecret, { algorithm: 'HS512', expiresIn: authTTL })
-               res.json({ token: authToken });
+        res.json({ token: authToken });
     })
 }
