@@ -4,7 +4,8 @@ module.exports = (api) => {
         const { refreshCookie } = req.$.config.authentication
         res.clearCookie(refreshCookie, {
             httpOnly: true,
-            sameSite: 'none'
+            sameSite: 'none',
+            secure: config.protocol === 'https'
         }).status(204).end();
     });
 }

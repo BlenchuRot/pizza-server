@@ -1,5 +1,5 @@
 function getOrigin(config){
-    return `${config.protocol}://${config.host}:${config.port}`;
+    return config.origin || `${config.protocol}://${config.host}:${config.port}`;
 }
 
 module.exports = {

@@ -35,6 +35,7 @@ module.exports = (api) => {
             res.cookie(refreshCookie, refreshToken, {
                     maxAge: refreshTTL * 1000,
                     httpOnly: true,
+                    secure: config.protocol === 'https',
                     sameSite: 'none'
             })
                 .json({token: authToken});   

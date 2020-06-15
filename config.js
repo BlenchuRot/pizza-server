@@ -6,6 +6,7 @@ module.exports = {
     protocol: process.env.PROTOCOL || 'http',
     host: process.env.HOST || 'localhost',
     port: process.env.PORT || 3005,
+    origin: process.env.ORIGIN,
     staticPath:  path.resolve(__dirname, '..', 'build'),
     db: path.join(__dirname, 'db.json'),
     static: {
